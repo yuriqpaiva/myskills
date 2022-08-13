@@ -23,7 +23,7 @@ export function Home() {
   function handleAddNewSkill() {
     const data = {
       id: String(new Date().getTime()),
-      name: newSkill
+      name: newSkill,
     };
 
     setMySkills(oldState => [...oldState, data]);
@@ -52,7 +52,7 @@ export function Home() {
         onChangeText={setNewSkill}
       />
 
-      <Button onPress={handleAddNewSkill} />
+      <Button onPress={handleAddNewSkill} title="Add" />
 
       <Text style={[styles.title, {marginVertical: 50}]}>My skills</Text>
 
