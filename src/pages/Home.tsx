@@ -53,7 +53,9 @@ export function Home() {
         backgroundColor="transparent"
         barStyle="light-content"
       />
-      <Text style={styles.title}>Welcome, Yuri</Text>
+      <Text style={styles.title} testID="welcome">
+        Welcome, Yuri
+      </Text>
       <Text style={styles.greetings}>{greetings}</Text>
       <TextInput
         style={styles.input}
