@@ -23,7 +23,7 @@ export function Button({title, style, ...rest}: ButtonProps) {
 
 const styles = StyleSheet.create({
   button: {
-    backgroundColor: '#A370F7',
+    backgroundColor: 'red',
     padding: 15,
     borderRadius: 7,
     alignItems: 'center',

@@ -54,7 +54,7 @@ export function Home() {
         barStyle="light-content"
       />
       <Text style={styles.title} testID="welcome">
-        Welcome, Yuri
+        Welcome, Yuri Paiva
       </Text>
       <Text style={styles.greetings}>{greetings}</Text>
       <TextInput
